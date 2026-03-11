@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <RouterView />
+    <h1>Hello, from Home.vue</h1>
 </template>
 
-<style scoped></style>
+<style></style>
