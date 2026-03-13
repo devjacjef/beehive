@@ -24,26 +24,37 @@ npm install
 
 This is a rough roadmap for `beehive`. The current focus is to create an MVP based off of the designs provided to me by my wife.
 
-## 0.0.1
+# 0.0.1
 
-This first initial step will focus on getting rough components designed for the site. The following components will be required for the first unstable version:
+The first stag will be focused on developing a rough MVP based on the designs provided to me. This can be comprised of non-composed elements to explore what may/may not require composition.
 
-- Semantic Elements (header, footer, nav, main, etc.)
-- Page Layouts (Grid, Flex)
-- Custom unstyled pre-built components (Cards, Banners)
+At this stage quickly create basic styling.
+
+- Scaffold Home Page
+- Scaffold About Page
+- Scaffold Art Gallery Page
+- Scaffold Projects Page 
+- Scaffold Commissions Page
+- Scaffold Blogs Page
+
+There are some brief components that could be created but otherwise, try to just focus on getting place holder content down.
 
 # 0.0.2
 
-`0.0.2` will focus on matching the design of the website my wife wants. This is heavily inspired by old internet forums and has quite an 'old fashioned' look and feel compared to modern web designs.
+For `0.0.2` it would be a good idea to quickly sift through the code and identify the components that require to be composed. Some components that could be quickly moved into Vue components include:
 
-- Custom CSS to match the design
-- Floating navigation pills on the banner
-- Cards with static content
+- Navigation Links
+- Page Banner
+- Page Logo
 
-## 0.0.3
+There are also other UI components that can be explored like Cards however, an external library may be able to provide components fit for that use-case.
 
-`0.0.3` will focus on providing a basic client-side API for setting dynamic content in Vue. This will make use of **Primitives** that `reka-ui` provides to build dynamic UI components.
+# 0.0.3
 
-- Configure existing components to use primitives
-- Update styling to make use of props
--
+`0.0.3` should be about refining an MVP into something that looks okay. This should focus on the overall styling on the site, matching the designs rough styling and then making sure to scope these styles accordingly.
+
+# Future Considerations
+
+Since this page is for an artist there are a lot of measures to consider. Firstly, it would be immoral to be use GenAI for any part of this project. Using it to support the developer in terms of documentation is quite alright however, it is important to not let that generate anything.
+
+Another consideration is preventing an AI system from getting access to the page and finding ways to counter-act AI from stealing art work for training data. I would like to explore libraries that may manipulate images to provide something in the background that messes with them. On top of that, it would be fun to explore preventing screenshots or downloads of images directly from the site but that may require a lot of work.
