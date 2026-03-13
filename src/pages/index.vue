@@ -1,7 +1,17 @@
 <script setup lang="ts"></script>
 
 <template>
-    <h1>Hello, from Home.vue</h1>
+    <header>
+        <!-- Placeholder -->
+    </header>
+
+    <main>
+        <!-- Placeholder -->
+    </main>
+
+    <footer>
+        <!-- Placeholder -->
+    </footer>
 </template>
 
 <style></style>
