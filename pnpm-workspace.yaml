@@ -1,0 +1,6 @@
+ignoredBuiltDependencies:
+  - esbuild
+  - vue-demi
+
+overrides:
+  sweetui: link:../../.local/share/pnpm/global/5/node_modules/sweetui
